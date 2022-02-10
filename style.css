@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid #2196f3;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container-a {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item-a {
+  background-color: lightcoral;
+  border: 1px solid #2196f3;
+  padding: 20px;
+  text-align: center;
+}
